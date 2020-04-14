@@ -98,7 +98,7 @@ def tobs():
     session = Session(engine)
 
     """Return a list of the date and temperature of the most active station of the year"""
-    # Query of the dates and temperature of the most active station of the year
+    # Query of the temperature of the most active station of the year
     temp = session.query(Measurement.tobs).\
             filter(Measurement.station == 'USC00519281').\
             filter(Measurement.date > '2016-08-23').all()
