@@ -4,7 +4,7 @@ In this repository I created a project where I analyzed the climate of Hawaii,
 using sqlalchemy and created several interesting tables. I also used Flask to create several API's in JSON format where people can access and see several trends of Hawaii's weather.
 
 ### Resources
-In this file, I have all of the data used such as CSV files and SQLite.
+Under resources I have all of the data used such as CSV files and SQLite.
 
 ### Results
 Under results you can find all of the code.
